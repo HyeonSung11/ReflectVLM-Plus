@@ -48,7 +48,7 @@ Vision-Language Models (VLM) · Robotic manipulation planning · Reflective reas
 
 ## Results
 
-All models are trained under the same condition (400 trajectories, single GPU) and evaluated on 100 procedurally generated test boards. SD = Visual Stagnation Detection, LP = Trajectory Loop Purging.
+All models are post-trained on the same 400 trajectories and evaluated on 100 procedurally generated test boards. ReflectVLM+ was trained on a single 24 GB GPU, so its batch size is smaller than the original (see Table 3). SD = Visual Stagnation Detection, LP = Trajectory Loop Purging.
 
 **Table 1. Task performance and ablation**
 
