@@ -1,0 +1,16 @@
+__pycache__
+data
+logs
+models
+*.egg-info
+.command_history
+MUJOCO_LOG.TXT
+# --- added for ReflectVLM-Plus ---
+offload/
+wandb/
+datasets/
+*.log
+MUJOCO_LOG.TXT
+roboworld/envs/assets/tmp_*.xml
+.vscode/
+*.pdf
